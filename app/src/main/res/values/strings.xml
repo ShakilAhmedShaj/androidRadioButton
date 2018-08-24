@@ -3,4 +3,5 @@
     <string name="say_text">Do you agree?</string>
     <string name="button_1_text">Yes</string>
     <string name="button_2_text">No</string>
+    <string name="show_text">SHOW</string>
 </resources>

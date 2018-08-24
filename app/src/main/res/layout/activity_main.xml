@@ -21,17 +21,32 @@
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/yes_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="@string/button_1_text" />
 
         <RadioButton
+            android:id="@+id/no_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="20dp"
             android:text="@string/button_2_text" />
     </RadioGroup>
+
+    <Button
+        android:id="@+id/show_button_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/show_text"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/show_holder_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
 
 </LinearLayout>
